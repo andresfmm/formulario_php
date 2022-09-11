@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Bootstrap demo</title>
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="assets/css/toastr.css" rel="stylesheet" />
     </head>
     <body style="background: #f3f3f3;">
         <div class="d-flex justify-content-center align-items-center mt-5">
@@ -39,5 +40,7 @@
             </div>
         </div>
         <script src="assets/js/guardar.js"></script>
+        <script src="assets/js/jquery-3.6.1.min.js"></script>
+        <script src="assets/js/toastr.min.js"></script>
     </body>
 </html>
