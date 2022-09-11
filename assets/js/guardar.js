@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
              .then(function(data) {
                 console.log(data)
                    if (data.ok) {
-                        // location.href = '/dashboard';
+                       toastr.success(data.message);
                    }else{
                        
                    }
